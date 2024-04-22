@@ -1,0 +1,39 @@
+form{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+form *{
+    margin:5px;
+    width: 100%;
+}
+
+
+form input,textarea{
+    padding: 5px 10px;
+   font-size: 10px;
+   border: 1px solid gainsboro;
+   border-radius: 5px;
+
+}
+form button{
+    padding: 5px 10px;
+    background-color: royalblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+ form label{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: gray;
+    user-select: none;
+}
+form label input,form input[type="radio"]{
+    width: auto;
+}
+.d-flex{
+    display: flex;
+}
